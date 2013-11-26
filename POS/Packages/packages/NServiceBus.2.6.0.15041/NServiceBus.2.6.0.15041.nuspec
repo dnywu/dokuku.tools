@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NServiceBus</id>
+    <version>2.6.0.15041</version>
+    <title />
+    <authors>Denny Wu</authors>
+    <owners>Denny Wu</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Nservicebus dll dan core</description>
+  </metadata>
+</package>

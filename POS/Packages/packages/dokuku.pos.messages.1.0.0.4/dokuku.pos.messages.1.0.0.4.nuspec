@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>dokuku.pos.messages</id>
+    <version>1.0.0.4</version>
+    <title>Dokuku POS Messages</title>
+    <authors>Denny</authors>
+    <owners>Denny</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>messsage pos dari Dokuku Gateway.</description>
+    <tags>dokuku pos messages</tags>
+  </metadata>
+</package>
