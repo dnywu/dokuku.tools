@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>dokuku.mongo.config</id>
+    <version>2.0.1.2</version>
+    <title>Dokuku Mongo Config</title>
+    <authors>Lenovo</authors>
+    <owners>Lenovo</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dokuku MongoDB Configuration.
+Kembali ke versi Mongo Driver 1.3.1.4349.</description>
+    <releaseNotes>Dokuku MongoDB Configuration.
+Kembali ke versi Mongo Driver 1.3.1.4349.</releaseNotes>
+    <tags>mongoconfig, mongodb, mongo</tags>
+    <dependencies>
+      <dependency id="mongocsharpdriver" version="1.3.1" />
+    </dependencies>
+    <references>
+      <reference file="dokuku.mongoconfiguration.dll" />
+    </references>
+  </metadata>
+</package>

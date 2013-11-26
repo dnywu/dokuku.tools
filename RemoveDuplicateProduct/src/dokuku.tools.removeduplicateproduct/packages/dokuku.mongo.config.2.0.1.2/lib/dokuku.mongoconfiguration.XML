@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dokuku.mongoconfiguration</name>
+    </assembly>
+    <members>
+        <member name="T:dokuku.mongoconfiguration.MongoConfig">
+            <summary>
+            Configuration MongoDB dokuku
+            </summary>
+        </member>
+        <member name="P:dokuku.mongoconfiguration.MongoConfig.Database">
+            <summary>
+            database untuk CUD (create, update, delete), tetapi slave database harus ada. 
+            jika slave database tidak ada, maka property ini berfungsi sebagai database CRUD (create, read, update, delete)
+            </summary>
+        </member>
+        <member name="P:dokuku.mongoconfiguration.MongoConfig.Server">
+            <summary>
+            server mongo untuk CUD (create, update, delete), tetapi slave database harus ada. 
+            jika slave server tidak ada, maka property ini berfungsi sebagai server CRUD (create, read, update, delete)
+            </summary>
+        </member>
+        <member name="P:dokuku.mongoconfiguration.MongoConfig.DatabaseReporting">
+            <summary>
+            database mongo hanya untuk Read/Baca data, tidak bisa untuk CRUD
+            </summary>
+        </member>
+        <member name="P:dokuku.mongoconfiguration.MongoConfig.ServerReporting">
+            <summary>
+            server mongo hanya untuk Read/Baca data, tidak bisa untuk CRUD
+            </summary>
+        </member>
+        <member name="P:dokuku.mongoconfiguration.MongoConfig.Instance">
+            <summary>
+            Instance MongoConfig Dokuku
+            </summary>
+        </member>
+    </members>
+</doc>
